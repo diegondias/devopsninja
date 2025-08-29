@@ -1,8 +1,8 @@
 	# Setar a imagem base como Ubuntu
-FROM redis
+FROM redis:alpine
 
 	# Autor/Mantenedor
-MAINTAINER Jonathan Baraldi
+LABEL maintainer="Jonathan Baraldi"
 
 	# Atualizar o repositório e instalar o server do Redis
 # RUN apt-get update && apt-get install -y redis-server
